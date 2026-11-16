@@ -10,7 +10,7 @@ class AppConfig {
 
   /// This build's version — compared against `config/pricing.minVersion` at
   /// startup for the force-update gate. Keep in sync with pubspec.yaml.
-  static const String appVersion = '1.0.1';
+  static const String appVersion = '1.0.2';
 
   // Fare model (ZAR): base + per-km, multiplied per ride tier. PREVIEW ONLY —
   // the server recomputes the authoritative fare from config/pricing.
